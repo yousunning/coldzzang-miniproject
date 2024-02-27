@@ -1,0 +1,12 @@
+package cold.recipe.service1;
+
+import java.util.List;
+
+public interface RecipeService {
+
+	public List<RecipeDTO> list(RecipeDTO recipeDTO);
+	
+	public void userInsert(RecipeDTO recipeDTO);
+	
+	public RecipeDTO userSelect(RecipeDTO recipeDTO);
+}

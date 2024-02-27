@@ -1,0 +1,12 @@
+package cold.recipe.service.impl;
+
+public class RecipeServiceImpl {
+
+	
+
+@Service ("UserService")
+public class UserServiceImpl implements UserService {
+	@Autowired
+	private UserDAO UserDAO;
+	
+}

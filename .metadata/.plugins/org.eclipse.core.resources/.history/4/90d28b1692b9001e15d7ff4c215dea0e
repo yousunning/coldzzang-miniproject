@@ -1,0 +1,19 @@
+package food.service;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Setter
+@Getter
+public class FoodDTO {
+    private String sn;
+    private String userId;
+    private String foodType;
+    private String foodName;
+}
+	
+	

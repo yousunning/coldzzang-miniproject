@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+개발해봐요
+<table>
+<c:forEach items="${resultList}" var="list">
+<tr>
+<td>
+<c:out value="${list.sn}"/>
+<c:out value="${list.foodType}"/>
+<c:out value="${list.foodName}"/>
+<c:out value="${list.userId}"/>
+</td>
+</tr>
+</c:forEach>
+</table>
+
+</body>
+</html>

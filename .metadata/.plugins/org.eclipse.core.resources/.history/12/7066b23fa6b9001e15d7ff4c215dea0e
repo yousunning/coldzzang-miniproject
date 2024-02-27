@@ -1,0 +1,7 @@
+package cold.recipe.service.impl;
+
+public class RecipeServiceImpl {
+
+	
+	@Service ("RecipeService")
+}

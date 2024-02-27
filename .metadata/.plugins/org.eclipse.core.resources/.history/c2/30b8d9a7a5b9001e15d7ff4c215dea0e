@@ -1,0 +1,33 @@
+package cold.recipe.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import cold.recipe.service1.RecipeService;
+
+@Service ("RecipeService")
+
+public class UserServiceImpl implements UserService {
+	@Autowired
+	private UserDAO UserDAO;
+	
+
+	// 由ъ뒪�듃
+	public List<UserDTO> list(UserDTO userDTO) {
+		return UserDAO.getUserList(userDTO);
+	}
+	
+	// 由ъ뒪�듃
+	public UserDTO userSelect(UserDTO userDTO) {
+		return UserDAO.userSelect(userDTO);
+	}
+	
+	
+	// �쉶�썝媛��엯
+	public void userInsert(UserDTO userDTO) {
+		UserDAO.userInsert(userDTO);
+	}
+
+
+	
+}

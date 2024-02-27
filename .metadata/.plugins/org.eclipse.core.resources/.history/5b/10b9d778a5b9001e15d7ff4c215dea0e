@@ -1,0 +1,15 @@
+package cold.recipe.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import cold.recipe.service1.RecipeService;
+
+@Service ("RecipeService")
+	public class RecipeServiceImpl implements RecipeService {
+		
+		@Autowired
+		private RecipeDAO FoodDAO;
+
+}
+

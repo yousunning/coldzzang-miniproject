@@ -1,0 +1,5 @@
+package food.web;
+
+public @interface GetMapping {
+
+}

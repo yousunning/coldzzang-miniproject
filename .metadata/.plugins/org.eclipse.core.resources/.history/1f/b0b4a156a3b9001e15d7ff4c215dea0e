@@ -1,0 +1,15 @@
+package cold.recipe.service1;
+
+public class RecipeDTO {
+	@NoArgsConstructor
+	@AllArgsConstructor
+	@Setter
+	@Getter
+	public class UserDTO {
+	    private String userId;
+	    private String userPw;
+	    private String userEmail;
+	    private String userPnum;
+	    private String userName;
+	}
+		

@@ -1,0 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>차갑짱</title>
+</head>
+<body>
+차갑짱
+<a href="/food/List/1">링크로~</a>
+<br>그래요
+</body>
+</html>

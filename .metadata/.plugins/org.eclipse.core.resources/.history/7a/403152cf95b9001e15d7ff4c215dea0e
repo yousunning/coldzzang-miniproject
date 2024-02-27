@@ -1,0 +1,11 @@
+sp# Oracle \uB370\uC774\uD130\uBCA0\uC774\uC2A4 \uC5F0\uACB0 \uC124\uC815
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:your_database
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
+# JPA \uBC0F Hibernate \uC124\uC815
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# Oracle \uB370\uC774\uD130\uBCA0\uC774\uC2A4 \uB4DC\uB77C\uC774\uBC84 \uD074\uB798\uC2A4\uBA85 (\uD544\uC694\uD55C \uACBD\uC6B0)
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver

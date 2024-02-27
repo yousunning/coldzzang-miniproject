@@ -1,0 +1,18 @@
+package cold.recipe.service1;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+public class RecipeDTO {
+	@NoArgsConstructor
+	@AllArgsConstructor
+	@Setter
+	@Getter
+	public class UserDTO {
+	    private String recipeId;
+	    private String recipeName;
+	    private String userUrl;
+	}
+		

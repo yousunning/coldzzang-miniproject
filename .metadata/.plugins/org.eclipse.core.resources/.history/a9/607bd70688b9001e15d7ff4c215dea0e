@@ -1,0 +1,10 @@
+package food.web;
+
+public @interface GetMapping {
+	 @GetMapping("/")
+	    public String home() {
+	        // "home"은 뷰의 이름을 나타냄
+	        return "home";
+	    }
+	}
+}

@@ -1,0 +1,15 @@
+INDEX VERSION 1.131
+C:\cold\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\423595040.index
+\cold\src\main\java
+C:\cold\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\631182759.index
+\cold\src\main\java
+C:\cold\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3333633295.index
+\cold\src\main\java
+C:\cold\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3523256204.index
+\cold\src\main\java
+C:\cold\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\523144208.index
+\cold\src\main\java
+C:\cold\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1785950665.index
+\cold\src\main\java
+C:\cold\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4133214281.index
+\cold\src\main\java

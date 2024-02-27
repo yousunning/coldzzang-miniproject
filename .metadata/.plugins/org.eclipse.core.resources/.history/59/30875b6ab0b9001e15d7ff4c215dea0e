@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="RecipeDAO">
+    
+  	<resultMap id="userDTO" type="cold.recipe.service.RecipeDTO">
+		<result column="RECIPE_ID" property="userId" />
+		<result column="RECIPE_NAME" property="userPw" />
+		<result column="RECIPE_URL" property="userEmail" />
+	</resultMap>
+
+	<select id="getRecipeList" parameterType="cold.recipe.service.RecipeDTO" resultType="cold.recipe.service.RecipeDTO">
+  		SELECT
+				RECIPE_ID,
+				RECIPE_NAME,
+				RECIPE_URL
+		FROM
+			foodrecipe
+  	</select>
+  </mapper>
+
+  	

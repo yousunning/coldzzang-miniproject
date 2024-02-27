@@ -1,0 +1,20 @@
+package cold.recipe.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import cold.recipe.service1.RecipeService;
+
+public class RecipeServicelmpl {
+	
+	@Service ("RecipeService")
+	public class RecipeServiceImpl implements RecipeService {
+		@Autowired
+		private RecipeDAO FoodDAO;
+		
+
+		// 由ъ뒪�듃
+		public List<RecipeDTO> list(RecipeDTO recipeDTO) {
+			return RecipeDAO.getRecipeList(recipeDTO);
+		}
+
+}

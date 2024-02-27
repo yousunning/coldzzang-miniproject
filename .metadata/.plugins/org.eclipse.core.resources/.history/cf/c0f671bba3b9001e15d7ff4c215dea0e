@@ -1,0 +1,18 @@
+package cold.recipe.service.impl;
+
+@Repository
+public class RecipeDAO {
+
+		
+		@Autowired
+		private SqlSessionTemplate mybatis;
+		
+		
+		public List<FoodDTO> getFoodList(FoodDTO foodDTO) {
+			return  mybatis.selectList("FoodDAO.getFoodList", foodDTO);
+		}
+		
+		
+		
+	}
+}

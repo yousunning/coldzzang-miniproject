@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>이게 태이블마다 달라야하는건가ㅓ</title>
+</head>
+<body>
+    <h2>cold</h2>
+    <form action="/food/List/like" method="post">
+        Name: <input type="text" name="name" /><br />
+        Email: <input type="email" name="email" /><br />
+        <input type="submit" value="Register" />
+
+    </form>
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+package cold.recipe.service.impl;
+
+import java.util.List;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import cold.recipe.service1.RecipeDTO;
+
+@Repository
+public class RecipeDAO {
+
+		
+		@Autowired
+		private SqlSessionTemplate mybatis;
+		
+		
+		public List<RecipeDTO> getFoodList(RecipeDTO foodDTO) {
+			return  mybatis.selectList("FoodDAO.getFoodList", foodDTO);
+		}
+		
+		
+		
+	}
+

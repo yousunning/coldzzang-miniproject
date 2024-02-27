@@ -1,0 +1,45 @@
+package cold.recipe.web;
+
+import java.util.List;
+
+import javax.servlet.http.HttpSession;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import cold.recipe.service1.RecipeDTO;
+import cold.recipe.service1.RecipeService;
+import food.service.FoodDTO;
+import food.service.FoodService;
+
+
+@Controller
+public class RecipeController { //이 클래스는 SpringMVC컨트롤러로 표시되어 있습니다.
+	
+	@Autowired
+	private RecipeService recipeService;
+	
+	@RequestMapping("/recipe/List")
+	public getRecipeList(@ModelAttribute("recipeDTO")RecipeDTO recipeDTO,Model model, HttpSession session) {
+		model.addA
+}
+	@Controller
+	public class RecipeController {
+
+	    @Autowired
+	    private RecipeService recipeService;
+
+	    @GetMapping("/recipes")
+	    public String showRecipes(Model model) {
+	        model.addAttribute("recipes", recipeService.getAllRecipes());
+	        return "recipes"; // JSP 파일 이름
+	    }
+	}
+}

@@ -1,0 +1,33 @@
+package cold.recipe.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import cold.recipe.service1.RecipeDTO;
+import cold.recipe.service1.RecipeService;
+
+public class RecipeServiceImpl {
+
+	
+
+@Service ("RecipeService")
+public class UserServiceImpl implements RecipeService {
+	@Autowired
+	private RecipeDAO RecipeDAO;
+
+	@Override
+	public List<RecipeDTO> list(RecipeDTO recipeDTO) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public RecipeDTO recipeSelect(RecipeDTO recipeDTO) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}
+}
